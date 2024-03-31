@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> 안녕하세요</h1>
+        <h1><a href="https://www.instagram.com/">인스타그램</a></h1>
+        <h1><a href="https://www.naver.com/">네이버</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href = "#">홈</a></li>
+            <li><a href = "#">상세정보</a></li>
+        </ul>
+
+        <ol>
+            <li><a href = "#">하이</a></li>
+            <li><a href = "#">안녕</a></li>
+        </ol>
+    </nav>
+
+        <main>
+            <form>
+                <fieldset>
+                    <legend>정보입력</legend>
+                    <table>
+                        <tr>
+                            <th><label for="id"><b>id</b></label></th> 
+                            <td colspan="2"><input type="text" id="id"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="password"><b>password</b></label></th>
+                            <td colspan="2"><input type="password" id="password"></td>  
+                        </tr>
+                        
+                        <tr>
+                            <th><b>성별</b></th>
+                            
+                            <td><label for="woman">여자</label>
+                            <input type="radio" id="woman" name="gender" value="w"></td>
+                            <td><label for="man">남자</label>
+                            <input type="radio" id="man" name="gender" value="m"></td>
+                        </tr>
+
+                        <tr>
+                            <th><b>단과대</b></th>
+                            <td><select>
+                                <option>인문대학</option>
+                                <option>공과대학</option>
+                                <option>예술대학</option>
+                            </select></td>
+                            </tr>
+                            <tr>
+                            <th rowspan="2"><b>과목</b></th> 
+                            <td><input type="checkbox" name="Korean" id="Korean"><label for="Korean">국어</label></td>  
+                            <td><input type="checkbox" name="english" id="english"><label for="english">영어</label></td>
+                            </tr>
+                            <tr>   
+                            <td><input type="checkbox" name="math" id="math"><label for="math">수학</label></td>
+                            <td><input type="checkbox" name="science" id="science"><label for="science">과학</label></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="reset" value="초기화"></td>    
+                            <td><input type="submit" value="제출"></td> 
+                            
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </main>
+</body>
+</html>
